@@ -5,7 +5,9 @@
 .container{
     width: 560px;
     height: 560px;
-    margin: 30px auto;
+    margin: 90px 90px;
+    bottom: 550px;
+    position: relative;
     border: 1px solid black;
 }
 .block{
@@ -18,4 +20,21 @@
 }
 .white{
     background: white;
+}
+.num{
+    position:relative;
+    left: 125px;
+    bottom: 1250px;
+    font-style:oblique;
+    font-weight: bold;
+}
+.latter{
+    width: 70px;
+    font-style:oblique;
+    font-weight: bold;
+    height: 70px;
+    top: 125px;
+    left: 50px;
+    position: relative;
+    display: grid;
 }
