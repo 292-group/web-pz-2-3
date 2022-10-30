@@ -1,0 +1,47 @@
+.nvv-main {
+    width: 630px;
+    height: 630px;
+}
+
+.nvv-container {
+    width: 560px;
+    height: 560px;
+
+    margin: 90px 90px;
+    bottom: 550px;
+
+    border: 1px solid black;
+}
+
+.nvv-block {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.nvv-black {
+    background: black;
+}
+
+.nvv-white {
+    background: white;
+}
+
+.nvv-num {
+    position: relative;
+    left: 125px;
+    bottom: 1250px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.nvv-latter {
+    width: 70px;
+    font-style: oblique;
+    font-weight: bold;
+    height: 70px;
+    top: -625px;
+    left: 50px;
+    position: relative;
+    display: grid;
+}
