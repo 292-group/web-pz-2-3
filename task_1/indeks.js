@@ -18,7 +18,7 @@ rotateImg(img3);
   showHref(a2,'https://ua.reactor.cc/tag/%D0%BC%D0%B8%D1%80',2);
   showHref(a3,'https://www.unian.net/lite/holidays/krasivye-kartinki-pro-ukrainu-na-rabochiy-stol-i-telefon-11884050.html',3);
   check=(name)=>{
-     name.onkeyup=()=>{
+    name.onkeyup=()=>{
     let inpt_v = name.value;
     const RegExp = /\W+/g;
     checked=RegExp.test(inpt_v)
