@@ -1,0 +1,13 @@
+body{
+  background: aquamarine;
+}
+.black{
+  background: black;
+  width: 100px;
+  height: 100px
+}
+.white{
+  background: white;
+  width: 100px;
+  height: 100px
+}
