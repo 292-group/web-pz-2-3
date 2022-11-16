@@ -5,9 +5,11 @@ function taskClick1() {
 
 let angle = [0, 90, 180, 270];
 let current = 0;
-
+  $('img').bind('contextmenu', function(e){
+    return false;
+}); 
 function taskClick2(id, event) {
-  current++;
+  current++; 
   if (current === 4)
     current = 0;
   $('#' + id).css('transform', 'rotate(' + angle[current] + 'deg)');
